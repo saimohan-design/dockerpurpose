@@ -30,9 +30,11 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
+          file: ./Docker
           push: true
           tags: saimohan123/your-image-name:latest
           
+
           
 
           
