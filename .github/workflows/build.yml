@@ -32,8 +32,9 @@ jobs:
           context: .
           file: ./Docker
           push: true
-          tags: saimohan123/your-image-name:latest
+          tags: saimohan123/firstone:latest
           
+
 
 
 
