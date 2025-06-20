@@ -24,6 +24,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: ./Docker
           push: true
           tags: ${{ secrets.ACR_LOGIN_SERVER }}/myapp:latest
 
@@ -43,4 +44,5 @@ jobs:
         run: |
           kubectl rollout status deployment/myapp -n myapp
           
+
           
