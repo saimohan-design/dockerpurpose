@@ -44,6 +44,7 @@ jobs:
         run: |
           kubectl rollout status deployment/myapp -n myapp
           
+
           
 
           
