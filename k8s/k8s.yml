@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nodejs-project
-          image: ndevcr.azurecr.io/myapp:latest
+          image:  ndevcr.azurecr.io/myapp:latest
           ports:
             - containerPort: 3000
           env:

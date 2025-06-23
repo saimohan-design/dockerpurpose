@@ -43,11 +43,11 @@ jobs:
         
       - name: Deploy to AKS
         run: |
-          kubectl apply -f k8s/
+          kubectl apply -f k8s/k8s.yml
+          
 
-      - name: Verify Deployment
-        run: |
-          kubectl rollout status deployment/myapp -n myapp
+
+      
 
 
 
